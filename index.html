@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="Portfolio of Abhishek Pandya – Web Development Team Lead at GUARDIAN RFID & Master's candidate at Trine University specializing in mobile and full-stack software development." />
+  <meta name="description" content="Portfolio of Abhishek Pandya – Web Development Team Lead at GUARDIAN RFID, Master's candidate at Trine University, and founder of LabelCraft (Shopify SaaS)." />
   <meta name="author" content="Abhishek Pandya" />
-  <meta name="theme-color" content="#a43f49" />
+  <meta name="theme-color" content="#090d16" />
   <link rel="canonical" href="https://abhishek3098.github.io/Portfolio/" />
   <link rel="icon" type="image/png" href="assets/images/favicon.png" />
   <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
@@ -14,25 +14,25 @@
   <!-- Open Graph / LinkedIn / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://abhishek3098.github.io/Portfolio/" />
-  <meta property="og:title" content="Abhishek Pandya | Web Development Team Lead & Mobile Engineer" />
-  <meta property="og:description" content="Portfolio of Abhishek Pandya – Web Development Team Lead at GUARDIAN RFID & Master's candidate at Trine University specializing in mobile and full-stack software development." />
+  <meta property="og:title" content="Abhishek Pandya | Web Development Team Lead & Full-Stack SaaS Engineer" />
+  <meta property="og:description" content="Portfolio of Abhishek Pandya – Web Development Team Lead at GUARDIAN RFID, Master's candidate at Trine University, and founder of LabelCraft (Shopify SaaS)." />
   <meta property="og:image" content="https://abhishek3098.github.io/Portfolio/assets/images/photo.png" />
 
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://abhishek3098.github.io/Portfolio/" />
-  <meta name="twitter:title" content="Abhishek Pandya | Web Development Team Lead & Mobile Engineer" />
-  <meta name="twitter:description" content="Portfolio of Abhishek Pandya – Web Development Team Lead at GUARDIAN RFID & Master's candidate at Trine University specializing in mobile and full-stack software development." />
+  <meta name="twitter:title" content="Abhishek Pandya | Web Development Team Lead & Full-Stack SaaS Engineer" />
+  <meta name="twitter:description" content="Portfolio of Abhishek Pandya – Web Development Team Lead at GUARDIAN RFID, Master's candidate at Trine University, and founder of LabelCraft (Shopify SaaS)." />
   <meta name="twitter:image" content="https://abhishek3098.github.io/Portfolio/assets/images/photo.png" />
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
-  <title>Portfolio - Abhishek Pandya</title>
-  <!--
-Reflux Template
-https://templatemo.com/tm-531-reflux
--->
-  <!-- Bootstrap core CSS -->
+  <title>Abhishek Pandya | Web Development Team Lead & Full-Stack SaaS Engineer</title>
+
+  <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Additional CSS Files -->
@@ -42,7 +42,7 @@ https://templatemo.com/tm-531-reflux
 
 <body>
   <div id="page-wraper">
-    <!-- Sidebar Menu -->
+    <!-- Sidebar Menu Dock -->
     <div class="responsive-nav">
       <i class="fa fa-bars" id="menu-toggle" aria-label="Open navigation menu" role="button" tabindex="0"></i>
       <div id="menu" class="menu">
@@ -53,28 +53,29 @@ https://templatemo.com/tm-531-reflux
           </div>
           <div class="author-content">
             <h4>Abhishek Pandya</h4>
-            <span>Mobile App Developer</span>
+            <span>Web Development Team Lead & Full-Stack SaaS Engineer</span>
+            <div class="status-pill">
+              <span class="status-dot"></span> Available for Hire
+            </div>
           </div>
           <nav class="main-nav" role="navigation">
             <ul class="main-menu">
               <li><a href="#section1">About Me</a></li>
-              <li><a href="#section2">What I’m good at</a></li>
-              <li><a href="#section3">My Work</a></li>
+              <li><a href="#section2">Core Competencies</a></li>
+              <li><a href="#section3">Featured Work</a></li>
               <li><a href="#section4">Contact Me</a></li>
             </ul>
           </nav>
           <div class="social-network">
             <ul class="social-icons">
               <li>
-                <a href="https://www.facebook.com/abhishek.pandya.3950" target="_blank" rel="noopener noreferrer"><i
-                    class="fa fa-facebook"></i></a>
+                <a href="https://www.facebook.com/abhishek.pandya.3950" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/abhishek-pandya-ap/" target="_blank" rel="noopener noreferrer"><i
-                    class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/abhishek-pandya-ap/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
               </li>
               <li>
-                <a href="https://github.com/Abhishek3098" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
+                <a href="https://github.com/Abhishek3098" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa fa-github"></i></a>
               </li>
             </ul>
           </div>
@@ -82,141 +83,103 @@ https://templatemo.com/tm-531-reflux
       </div>
     </div>
 
-    <section class="section about-me" data-section="section1">
+    <!-- =========================================================================
+         Section 1: About Me
+         ========================================================================= -->
+    <section class="section about-me" data-section="section1" id="section1">
       <div class="container">
         <div class="section-heading">
           <h2>About Me</h2>
           <div class="line-dec"></div>
-          <p>
-            I am a results-driven Web Development Team Lead at GUARDIAN RFID and a Master's student at Trine University,
-            with a strong background in software development, mobile applications, and full-stack web technologies.
-          </p>
-
-          <p>
-            Over the past several years, I've progressed from frontend and mobile app developer roles into team
-            leadership,
-            gaining hands-on experience across the full software development lifecycle—from planning and design to
-            testing, deployment, and optimization.
-          </p>
-
-          <p>
-            What motivates me is building scalable, user-friendly solutions and collaborating with cross-functional
-            teams to bring impactful ideas to life.
-            Along the way, I've contributed to startups, enterprise-level platforms, and academic projects, each
-            sharpening my skills in problem-solving, leadership, and innovation.
-          </p>
-
-          <p>
-            Core Skills & Tools: Java | NextJS | PHP | JavaScript | TypeScript | Node.js | Python | HTML | CSS | MySQL | SQL Server
-          </p>
+          <p>Engineering leadership, full-stack web architectures, and commercial SaaS product engineering.</p>
         </div>
-        <div class="left-image-post">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-image" style="margin-top: 100px;">
-                <img src="assets/images/3B_Logo_Official.png" alt="3B Supply company logo" loading="lazy" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="right-text">
-                <h4>3B Supply</h4>
-                <p>
-                  3B Supply has developed a proprietary system based on Lean principles; by keeping our costs low and
-                  passing those savings to customers.
-                </p>
-                <p>
-                  I have developed the 3B Supply website in WordPress from scratch. Please take a look at it by clicking
-                  the below button.
-                </p>
-                <div class="white-button">
-                  <a href="https://3bsupply.com/" target="_blank" rel="noopener noreferrer">Link to Website</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="right-image-post">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-text">
-                <h4>Mobile Application for CreArt</h4>
-                <p>
-                  CreArt is not just an organization but a hybrid composition of Creativity, REsearch and ART.
-                  Innovation and dynamism are the two most important resolutions of CreArt.
-                </p>
-                <p>
-                  Solely responsible for the design and implementation of the application from scratch and launched that
-                  application on Google Play Store.
-                </p>
-                <div class="white-button">
-                  <a href="javascript:void(0)" style="cursor: default; opacity: 0.85;">Google Play Store (Archived)</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="right-image" style="margin-top: 60px;">
-                <img src="assets/images/play_store.png" alt="Google Play Store badge" loading="lazy" />
-              </div>
+
+        <div class="about-me-card">
+          <p class="lead-bio">
+            I am a results-driven <strong>Web Development Team Lead</strong> at <strong>GUARDIAN RFID</strong> and a Master's candidate in Information Studies at <strong>Trine University</strong>, specializing in scalable web systems, enterprise architectures, and commercial e-commerce applications.
+          </p>
+          <p>
+            Over the past several years, I have progressed from frontline mobile and web engineering into technical team leadership. I manage sprint cadences, run architectural code reviews, optimize CI/CD pipelines, and collaborate cross-functionally with product and executive teams to build high-availability solutions across the entire software development lifecycle (SDLC).
+          </p>
+          <p>
+            In addition to enterprise leadership, I am the founder of <strong>Abhishti LLC</strong> and creator of <strong>LabelCraft</strong>, a commercial thermal barcode printing SaaS application engineered for the Shopify App Store using Remix, TypeScript, Shopify Polaris, Prisma ORM, and PostgreSQL.
+          </p>
+
+          <div class="skills-container">
+            <div class="skills-label">Core Technologies & Architecture:</div>
+            <div class="tech-badges">
+              <span class="tech-badge highlight"><i class="fa fa-code"></i> TypeScript</span>
+              <span class="tech-badge highlight"><i class="fa fa-code"></i> React / Next.js</span>
+              <span class="tech-badge highlight"><i class="fa fa-bolt"></i> Remix v2</span>
+              <span class="tech-badge highlight"><i class="fa fa-shopping-bag"></i> Shopify Polaris & APIs</span>
+              <span class="tech-badge"><i class="fa fa-server"></i> Node.js</span>
+              <span class="tech-badge"><i class="fa fa-database"></i> PostgreSQL & Prisma</span>
+              <span class="tech-badge"><i class="fa fa-database"></i> MySQL</span>
+              <span class="tech-badge"><i class="fa fa-mobile"></i> Mobile / Ionic</span>
+              <span class="tech-badge"><i class="fa fa-cloud"></i> Docker & Render</span>
+              <span class="tech-badge"><i class="fa fa-users"></i> Agile Team Leadership</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section my-services" data-section="section2">
+    <!-- =========================================================================
+         Section 2: Core Competencies (What I'm Good At)
+         ========================================================================= -->
+    <section class="section my-services" data-section="section2" id="section2">
       <div class="container">
         <div class="section-heading">
-          <h2>What I’m good at?</h2>
+          <h2>Core Competencies</h2>
           <div class="line-dec"></div>
-          <span>
-            Something that I love about programming is the opportunity to work with people from a wide range of
-            disciplines. The software development lifecycle involves working with so many different people and
-            departments.
-          </span>
+          <p>Proven technical leadership, product execution, and full-stack systems engineering.</p>
         </div>
+
         <div class="row">
-          <div class="col-md-6">
-            <div class="service-item">
-              <div class="first-service-icon service-icon"></div>
-              <h4>Mobile App Development</h4>
+          <div class="col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-icon-wrapper">
+                <i class="fa fa-users"></i>
+              </div>
+              <h4>Engineering Leadership & Architecture</h4>
               <p>
-                I have made 2 official application that are used by the professionals in the industry. For one
-                application, I have used Android Studio and for second I have used Ionic framework which includes
-                Angular, NodeJS, TypeScript.
+                Leading cross-functional engineering teams, running sprint planning, conducting comprehensive code reviews, establishing technical guidelines, and ensuring high-velocity delivery across the entire SDLC.
               </p>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="service-item">
-              <div class="second-service-icon service-icon"></div>
-              <h4>Web Application Development</h4>
+
+          <div class="col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-icon-wrapper">
+                <i class="fa fa-laptop"></i>
+              </div>
+              <h4>Full-Stack SaaS & Web Applications</h4>
               <p>
-                I am also experienced in developing web applications. I have done quite a few projects when I was doing
-                my bachelor's. I have developed restaurant management system project with just HTML and CSS and many
-                more small projects.
+                Architecting performant, scalable applications using TypeScript, React, Next.js, and Remix, backed by robust RESTful and GraphQL APIs, event-driven webhooks, and modern state management.
               </p>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="service-item">
-              <div class="third-service-icon service-icon"></div>
-              <h4>Software Development</h4>
+
+          <div class="col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-icon-wrapper">
+                <i class="fa fa-shopping-bag"></i>
+              </div>
+              <h4>Shopify App & E-Commerce Ecosystem</h4>
               <p>
-                I am a fast learner. I have done work as a software engineer where I am solely responsible for building
-                a website from scratch. I know languages like C, C++, Java, Python, and many more. On the other side, in
-                database side
-                I know MySQL, Postgres. I can be a full-stack developer, too.
+                Full lifecycle development of production embedded Shopify applications with Shopify Polaris, App Bridge, GraphQL Admin APIs, recurring subscription billing, and GDPR compliance webhooks.
               </p>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="service-item">
-              <div class="fourth-service-icon service-icon"></div>
-              <h4>WordPress</h4>
+
+          <div class="col-md-6 mb-4">
+            <div class="service-card">
+              <div class="service-icon-wrapper">
+                <i class="fa fa-database"></i>
+              </div>
+              <h4>Cloud Infrastructure & Relational Data</h4>
               <p>
-                As you can see in my profile that I have made a website from scratch in my internship and also have
-                hands-on experience maintaining websites in WordPress, scheduling posts, and integrating
-                tools like Google Analytics to monitor and optimize website usage.
+                Designing resilient, normalized relational schemas with PostgreSQL and MySQL via Prisma ORM. Containerizing web services with Docker and managing automated production deployments on Render and AWS.
               </p>
             </div>
           </div>
@@ -224,153 +187,119 @@ https://templatemo.com/tm-531-reflux
       </div>
     </section>
 
-    <section class="section my-work" data-section="section3">
+    <!-- =========================================================================
+         Section 3: Featured Work & Projects (Bento Grid)
+         ========================================================================= -->
+    <section class="section my-work" data-section="section3" id="section3">
       <div class="container">
         <div class="section-heading">
-          <h2>My Work</h2>
+          <h2>Featured Work & Projects</h2>
           <div class="line-dec"></div>
-          <span>
-            I have been in all stages of the programming cycle, from planning and design to testing and deployment. I
-            have deployed one application on the Play Store which was developed by me. I’m proud that my work in the
-            industry has helped companies to grow their businesses and generate more revenue.
-          </span>
+          <p>Production SaaS platforms, enterprise engineering leadership, and client systems.</p>
         </div>
-        <div class="row">
-          <div class="isotope-wrapper">
-            <form class="isotope-toolbar">
-              <label><input type="radio" data-type="*" checked="" name="isotope-filter" />
-                <span>all</span></label>
-              <label><input type="radio" data-type="internship" name="isotope-filter" />
-                <span>Work Experience</span></label>
-              <label><input type="radio" data-type="work" name="isotope-filter" />
-                <span>Personal projects</span></label>
-            </form>
-            <div class="isotope-box">
 
-              <div class="isotope-item" data-type="internship">
-                <figure class="snip1321">
-                  <img src="assets/images/guardian.png" alt="The Wright State Guardian website preview" loading="lazy" />
-                  <figcaption>
-                    <h4 class="text-center">The Wright State Guardian</h4>
-                    <span class="text-center">Web Designer</span>
-                    <ul>
-                      <li> Maintained and updated website functionalities in collaboration with the manager and web
-                        development team. </li>
-                      <li> Researched and recommended to use different plugin which gave the website a boost by 30%.
-                      </li>
-                      <li> Scheduling posts for every week and give breaking content to the students as soon as
-                        possible. </li>
-                      <li> Demonstrate weekly presentation of google analytics report to the whole team and finding ways
-                        to improve the website. </li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div>
+        <div class="bento-grid">
+          <!-- Bento Tile 1: Flagship SaaS (Hero Full Width) -->
+          <div class="bento-card hero-saas">
+            <div class="card-tag"><i class="fa fa-rocket"></i> Flagship SaaS Product • Commercial Launch</div>
+            <h3>LabelCraft — Thermal Barcode & Label Studio</h3>
+            <span class="role-title">Founder & Lead Engineer • Abhishti LLC</span>
+            <p>
+              An embedded Shopify application engineered to eliminate cumulative label margin drift across continuous thermal rolls (Dymo, Zebra, Brother, Rollo). Designed a hardware-calibrated postscript media-box engine, automated GS1 check-digit repair algorithms, dynamic auto-fitting typography, and pure 1-bit black/white thermal contrast rendering.
+            </p>
 
+            <img src="assets/images/labelcraft-banner.jpg" alt="LabelCraft Shopify Studio Banner Preview" class="hero-preview-img" loading="lazy" />
 
-              <div class="isotope-item" data-type="internship">
-                <figure class="snip1321">
-                  <img src="assets/images/SecuraStock.jpeg" alt="SecuraStock company preview" loading="lazy" />
-                  <figcaption>
-                    <h4 class="text-center">SecuraStock LLC</h4>
-                    <span class="text-center">Software Engineering Intern</span>
-                    <ul>
-                      <li> Built WordPress website from scratch and deployed. 3bsupply: <a
-                          href="https://www.3bsupply.com" target="_blank" rel="noopener noreferrer"> https://www.3bsupply.com </a></li>
-                      <li> Used AWS Mechanical TURK (MTURK) service to efficiently gather information for the website.
-                      </li>
-                      <li> Assisted in creating RESTful API and frontend in Web2py framework for the mobile application.
-                      </li>
-                      <li> Delivered cross-platform mobile application for internal use with ionic framework. </li>
-                      <li> Optimized the modules which made an impact on the run time of the application. </li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <div class="isotope-item" data-type="internship">
-                <figure class="snip1321">
-                  <img src="assets/images/creart-logo.png" alt="CreArt Solutions logo" loading="lazy" />
-                  <figcaption>
-                    <h4 class="text-center">CreArt Solutions</h4>
-                    <span class="text-center">Android Developer</span>
-                    <ul>
-                      <li> Developed multiple client applications with 100% on-time delivery while staying 10% under
-                        budget. </li>
-                      <li> Used RESTful APIs to pull server data and display it on the application. </li>
-                      <li> Performed bug fixes on existing code and an extensive code review to better understand the
-                        entire code. </li>
-                      <li> Single-handed design and implementation of application from scratch and successfully launched on Google Play Store (CreArt - legacy release). </li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <div class="isotope-item" data-type="internship">
-                <figure class="snip1321">
-                  <img src="assets/images/straduino.png" alt="Strawduino Private Limited logo" loading="lazy" />
-                  <figcaption>
-                    <h4 class="text-center">Strawduino Private Limited</h4>
-                    <span class="text-center">Front-end Developer</span>
-                    <ul>
-                      <li> Implemented UI with HTML5, CSS3 and JavaScript for interactive web pages. </li>
-                      <li> Website development from design to testing and up to production deployment. </li>
-                      <li> Solely responsible for developing new features for the website which reduced the number of
-                        customer complaints by 9%. </li>
-                      <li> Worked as a part of a team to modify the existing websites to correct errors and to improve
-                        their performance. </li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div>
-
-
-
-              <div class="isotope-item" data-type="work">
-                <figure class="snip1321">
-                  <img src="assets/images/Smart-Dustbin-1.png" alt="Smart Dustbin IoT system diagram" loading="lazy" />
-                  <figcaption>
-                    <h4 class="text-center">Smart Dustbin</h4>
-                    <span class="text-center">Tools and technology: Android Studio, Thingspeak, IoT, Arduino Uno</span>
-                    <ul>
-                      <li> Sensed the garbage in the dustbin by ultrasonic sensor and send that information to the
-                        cloud. </li>
-                      <li> Stored container data into cloud and send it to a mobile application. </li>
-                      <li> Displayed all the data in mobile application which can be seen by the Garbage Collector.
-                      </li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <div class="isotope-item" data-type="work">
-                <figure class="snip1321">
-                  <img src="assets/images/twitter-logo.webp" alt="Trending News from Twitter application logo" loading="lazy" />
-                  <figcaption>
-                    <h4 class="text-center">Trending NEWS from Twitter</h4>
-                    <span class="text-center">Tools and technology: Android Studio, Twitter API, JSON</span>
-                    <ul>
-                      <li> Integrated Twitter API to extract trending news from Twitter platform. </li>
-                      <li> Reduced the volume of the tweets by 50% using Twitter API’s data in the application. </li>
-                      <li> Added Geo-location functionality to the application that shows trending news of different
-                        locations. </li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div>
+            <div class="tech-badges">
+              <span class="tech-badge highlight">Shopify Embedded</span>
+              <span class="tech-badge highlight">Remix v2.16</span>
+              <span class="tech-badge highlight">TypeScript 5</span>
+              <span class="tech-badge highlight">Shopify Polaris</span>
+              <span class="tech-badge highlight">Prisma ORM</span>
+              <span class="tech-badge highlight">PostgreSQL</span>
+              <span class="tech-badge">Docker</span>
+              <span class="tech-badge">Recurring Billing ($9/mo)</span>
+              <span class="tech-badge">86/86 Tests Passing (100%)</span>
             </div>
+
+            <div class="card-actions">
+              <a href="https://github.com/Abhishek3098/labelcraft" target="_blank" rel="noopener noreferrer" class="btn-primary-action">
+                <i class="fa fa-github"></i> View Repository
+              </a>
+              <a href="https://labelcraft-vdau.onrender.com" target="_blank" rel="noopener noreferrer" class="btn-secondary-action">
+                <i class="fa fa-external-link"></i> Live Deployment
+              </a>
+            </div>
+          </div>
+
+          <!-- Bento Tile 2: GUARDIAN RFID (Featured Leadership Experience) -->
+          <div class="bento-card half-card">
+            <div class="card-tag emerald"><i class="fa fa-shield"></i> Enterprise Engineering Leadership</div>
+            <h3>The Wright State Guardian / GUARDIAN RFID</h3>
+            <span class="role-title">Web Development Team Lead</span>
+            <p>
+              Leading cross-functional web engineering teams developing enterprise identification and RFID inmate tracking platforms.
+            </p>
+            <ul>
+              <li>Lead engineering sprints, architectural code reviews, and technical design for core web platforms.</li>
+              <li>Streamline CI/CD deployment pipelines, reducing build failure rates and accelerating feature releases.</li>
+              <li>Spearhead user experience modernization initiatives and collaborate with product leadership on roadmaps.</li>
+              <li>Mentor junior and mid-level developers, fostering engineering excellence and clean architecture standards.</li>
+            </ul>
+            <img src="assets/images/guardian.png" alt="GUARDIAN Web Development Preview" class="company-logo-preview" loading="lazy" />
+          </div>
+
+          <!-- Bento Tile 3: 3B Supply / SecuraStock -->
+          <div class="bento-card half-card">
+            <div class="card-tag"><i class="fa fa-briefcase"></i> Production E-Commerce & Systems</div>
+            <h3>SecuraStock LLC / 3B Supply</h3>
+            <span class="role-title">Software Engineering Intern / Web Developer</span>
+            <p>
+              Architected and built the official 3B Supply website in WordPress from scratch and developed mobile operational tools.
+            </p>
+            <ul>
+              <li>Architected and launched the official 3B Supply e-commerce portal from scratch into production.</li>
+              <li>Engineered a cross-platform internal mobile application using the Ionic framework for supply management.</li>
+              <li>Created RESTful API services and Web2py endpoints to integrate product inventories seamlessly.</li>
+            </ul>
+            <img src="assets/images/SecuraStock.jpeg" alt="SecuraStock Company Preview" class="company-logo-preview" loading="lazy" />
+            <div class="card-actions">
+              <a href="https://3bsupply.com/" target="_blank" rel="noopener noreferrer" class="btn-secondary-action">
+                <i class="fa fa-external-link"></i> 3B Supply Website
+              </a>
+            </div>
+          </div>
+
+          <!-- Bento Tile 4: CreArt Solutions -->
+          <div class="bento-card half-card">
+            <div class="card-tag"><i class="fa fa-mobile"></i> Mobile Engineering & Delivery</div>
+            <h3>CreArt Solutions</h3>
+            <span class="role-title">Android Developer</span>
+            <p>
+              Engineered and published production Android client applications with end-to-end responsibility.
+            </p>
+            <ul>
+              <li>Solely responsible for the design, development, and Google Play Store deployment of client Android apps.</li>
+              <li>Integrated RESTful APIs to pull real-time data, optimize local caching, and handle offline network states.</li>
+              <li>Delivered multiple client projects on time while maintaining strict performance and bundle size constraints.</li>
+            </ul>
+            <img src="assets/images/creart-logo.png" alt="CreArt Solutions Preview" class="company-logo-preview" loading="lazy" />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section contact-me" data-section="section4">
+    <!-- =========================================================================
+         Section 4: Contact Me
+         ========================================================================= -->
+    <section class="section contact-me" data-section="section4" id="section4">
       <div class="container">
         <div class="section-heading">
           <h2>Contact Me</h2>
           <div class="line-dec"></div>
-          <p>I am open to new opportunities and available for hire. Feel free to connect or reach out directly.</p>
+          <p>I am open to new opportunities, technical leadership roles, and consulting projects. Feel free to connect or reach out directly.</p>
         </div>
+
         <div class="row justify-content-center">
           <div class="col-md-4 col-sm-6 text-center mb-4">
             <div class="contact-card">
@@ -378,27 +307,29 @@ https://templatemo.com/tm-531-reflux
               <h5>Email</h5>
               <p>aspandya30398@gmail.com</p>
               <div class="white-button">
-                <a href="mailto:aspandya30398@gmail.com">Send Email</a>
+                <a href="mailto:aspandya30398@gmail.com"><i class="fa fa-paper-plane"></i> Send Email</a>
               </div>
             </div>
           </div>
+
           <div class="col-md-4 col-sm-6 text-center mb-4">
             <div class="contact-card">
               <i class="fa fa-linkedin contact-icon"></i>
               <h5>LinkedIn</h5>
               <p>Connect professionally</p>
               <div class="white-button">
-                <a href="https://www.linkedin.com/in/abhishek-pandya-ap/" target="_blank" rel="noopener noreferrer">View Profile</a>
+                <a href="https://www.linkedin.com/in/abhishek-pandya-ap/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i> View Profile</a>
               </div>
             </div>
           </div>
+
           <div class="col-md-4 col-sm-6 text-center mb-4">
             <div class="contact-card">
               <i class="fa fa-github contact-icon"></i>
               <h5>GitHub</h5>
               <p>Explore my repositories</p>
               <div class="white-button">
-                <a href="https://github.com/Abhishek3098" target="_blank" rel="noopener noreferrer">View GitHub</a>
+                <a href="https://github.com/Abhishek3098" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i> View GitHub</a>
               </div>
             </div>
           </div>
@@ -408,14 +339,11 @@ https://templatemo.com/tm-531-reflux
   </div>
 
   <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/custom.js"></script>
   <script>
-    //according to loftblog tut
     $(".main-menu li:first").addClass("active");
 
     var showSection = function showSection(section, isAnimate) {
