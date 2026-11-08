@@ -535,6 +535,12 @@ figure.snip1321 {
   -webkit-perspective: 50em;
   perspective: 50em;
 }
+figure.snip1321 img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
 figure.snip1321 * {
   -webkit-box-sizing: padding-box;
   box-sizing: padding-box;

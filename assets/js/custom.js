@@ -3,44 +3,22 @@
   var menu = document.getElementById("menu");
   var close = document.getElementById("menu-close");
 
-  toggle.addEventListener("click", function(e) {
-    if (menu.classList.contains("open")) {
+  if (toggle && menu) {
+    toggle.addEventListener("click", function(e) {
+      menu.classList.toggle("open");
+    });
+  }
+
+  if (close && menu) {
+    close.addEventListener("click", function(e) {
       menu.classList.remove("open");
-    } else {
-      menu.classList.add("open");
-    }
-  });
+    });
+  }
 
-  close.addEventListener("click", function(e) {
-    menu.classList.remove("open");
-  });
-
-  // Close menu after click on smaller screens
-  $(window).on("resize", function() {
-    if ($(window).width() < 846) {
-      $(".main-menu a").on("click", function() {
-        menu.classList.remove("open");
-      });
-    }
-  });
-
-  $(".owl-carousel").owlCarousel({
-    items: 4,
-    lazyLoad: true,
-    loop: true,
-    dots: true,
-    margin: 30,
-    responsiveClass: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      1000: {
-        items: 1
-      }
+  // Close menu after clicking a link on smaller screens (< 846px)
+  $(".main-menu a").on("click", function() {
+    if ($(window).width() < 846 && menu) {
+      menu.classList.remove("open");
     }
   });
 
@@ -68,10 +46,4 @@
     $(this).on("change", filter);
     filter();
   });
-
-  lightbox.option({
-    resizeDuration: 200,
-    wrapAround: true
-  });
 })(jQuery);
-
